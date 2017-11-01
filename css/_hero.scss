@@ -7,9 +7,9 @@
   height: 100vh;
   background: url(../img/hero-bg.jpg) top center fixed;
   background-size: cover;
-  
+
   .hero-logo {
-    
+
     margin: 20px;
     img {
       max-width: 100%;
@@ -25,7 +25,7 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   h1 {
     margin: 30px 0 10px 0;
     font-weight: 700;
@@ -38,11 +38,11 @@
     }
 
   }
-  
+
   h2 {
-    color: #999; 
+    color: #999;
     margin-bottom: 50px;
-    
+
     @media (max-width: 768px) {
       font-size: 24px;
       line-height: 26px;
@@ -57,9 +57,9 @@
   .rotating > .animated {
     display: inline-block;
   }
-  
+
   .actions {
-    
+
     a {
       font-family: $heading-font;
       text-transform: uppercase;
@@ -85,7 +85,7 @@
       color: #fff;
     }
   }
-  
+
   .btn-services {
     border: 2px solid #fff;
     color: #fff;
@@ -94,5 +94,5 @@
       border: 2px solid $accent-color;
     }
   }
-   
+
 }

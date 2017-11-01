@@ -47,7 +47,8 @@ try {
     $mail->AltBody = strip_tags($body);
 
     $mail->send();
-    header("location: index.html?sent")
+    // echo 'Message has been sent';
+    header("Location: index.html?sent");
 } catch (Exception $e) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;

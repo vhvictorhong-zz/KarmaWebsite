@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 //Load composer's autoloader
 require 'vendor/autoload.php';
 
-// if (!isset($_POST['robot'])) {
+if (!isset($_POST['robot'])) {
 // get variable from form
 
 $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
@@ -53,5 +53,5 @@ try {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 }
-
+}
  ?>

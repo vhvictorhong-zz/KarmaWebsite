@@ -615,8 +615,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card .social-nav a {
+
   color: #fff;
-  font-size: 16px;
+  font-size: 30px;
   margin: 0 4px;
 }
 

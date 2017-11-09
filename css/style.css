@@ -592,6 +592,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team .card > a {
   display: block;
+  text-align: center;
 }
 
 .team .card img {
@@ -633,6 +634,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team .card:hover .card-title-wrap {
   background-color: #199EB8;
+  text-align: center;
 }
 
 .team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {

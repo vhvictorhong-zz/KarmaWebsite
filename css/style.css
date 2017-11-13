@@ -492,6 +492,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
 }
 
+.section-subtitle {
+  font-size: 32px;
+  color: #03C4EB;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
 .section-clothing {
   font-size: 32px;
   color: #fff;
@@ -576,6 +584,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #03C4EB;
 }
 
+#social .blog-item {
+  text-align: center;
+}
+
+#social .blog-icon {
+  float: center;
+  /*background: #03C4EB;*/
+  padding: 16px;
+  border-radius: 25px;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+}
+
+#social .blog-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#social .blog-icon:hover {
+  background: #bfefff;
+}
+
+#social .blog-icon i:hover {
+  color: #03C4EB;
+}
 /* Storefront Section
 --------------------------------*/
 #storefront {
@@ -625,6 +658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team .card .social-nav a:hover {
   opacity: .75;
+  color: #03C4EB;
 }
 
 .team .card:hover .team-over {
